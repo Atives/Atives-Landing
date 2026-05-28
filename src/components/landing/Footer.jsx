@@ -30,11 +30,23 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-24">
           {/* Left Column: Brand & Manifesto */}
           <div className="flex flex-col items-start max-w-sm">
-            <div className="h-14 w-14 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 grid place-items-center shadow-[0_0_40px_rgba(59,130,246,0.4)] mb-8">
-              <span className="text-white font-extrabold text-2xl tracking-tighter">
-                A
+            <a
+              href="#"
+              data-testid="header-logo"
+              className="flex items-center gap-2 group"
+            >
+              <div className="relative h-10 w-10 rounded-xl bg-gradient-to-br from-gray-100 via-gray-100 to-gray-200 grid place-items-center shadow-[0_0_25px_rgba(168,85,247,0.6)]">
+                <img
+                  src="https://res.cloudinary.com/dzwto9zbu/image/upload/v1779959585/Atives_Logo_1_mpnssp.png"
+                  alt="Profile"
+                  className="w-10 h-9 rounded-xl"
+                />
+                <div className="absolute inset-0 rounded-xl bg-blue-400/30 blur-md opacity-0 group-hover:opacity-100 transition-opacity" />
+              </div>
+              <span className="font-[Outfit] text-3xl font-semibold tracking-tight">
+                Atives
               </span>
-            </div>
+            </a>
             <p
               data-testid="footer-tagline"
               className="font-[Outfit] text-2xl md:text-3xl tracking-[-0.02em] text-white font-light leading-snug"
@@ -163,12 +175,11 @@ export default function Footer() {
 
         {/* Legal Footer */}
         <div className="relative z-20 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-zinc-500 pt-8 pb-4">
-          
           <div data-testid="footer-copyright" className="tracking-wide">
             © {new Date().getFullYear()} Atives Technologies. All rights
             reserved.
           </div>
-          
+
           <div className="flex items-center gap-6">
             <a
               href="#"
