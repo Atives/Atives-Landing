@@ -1,0 +1,200 @@
+{
+  "project_name": "Atives Super App Landing Page",
+  "app_type": "marketing_site",
+  "theme": "dark",
+  "archetype": "5 (Jewel & Luxury) with Tech/Electric accents",
+  "design_principles": [
+    "Premium, elegant, Apple/Linear level smoothness",
+    "Generous spacing to let content breathe",
+    "High contrast with soft glowing accents",
+    "Use glassmorphism for premium feel on cards/headers"
+  ],
+  "colors": {
+    "background": {
+      "primary": "#050508",
+      "secondary": "#0A0A0F",
+      "tertiary": "#12121A"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A1A1AA",
+      "accent": "#E9D5FF"
+    },
+    "primary_brand": {
+      "base": "#9333EA",
+      "hover": "#A855F7",
+      "glow": "rgba(147, 51, 234, 0.4)"
+    },
+    "accents": {
+      "purple_light": "#C084FC",
+      "violet_dark": "#581C87",
+      "electric_blue": "#3B82F6"
+    },
+    "surfaces": {
+      "glass": "bg-black/40 backdrop-blur-xl border border-white/10",
+      "card": "bg-[#0A0A0F] border border-white/5",
+      "glow_border": "border border-purple-500/30 shadow-[0_0_15px_rgba(147,51,234,0.2)]"
+    }
+  },
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "Manrope",
+    "scales": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tighter font-semibold",
+      "h2": "text-3xl md:text-4xl tracking-tight font-medium",
+      "h3": "text-xl md:text-2xl font-medium",
+      "body_lg": "text-lg md:text-xl leading-relaxed text-zinc-300",
+      "body": "text-base leading-relaxed text-zinc-400",
+      "small": "text-sm uppercase tracking-[0.2em]"
+    }
+  },
+  "spacing_and_layout": {
+    "section_padding": "py-24 md:py-32 lg:py-40",
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "grid_system": "Bento grids with gap-8 to gap-12, mixed spans for asymmetry."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-purple-600 hover:bg-purple-500 text-white rounded-full px-8 py-4 font-medium transition-all shadow-[0_0_20px_rgba(147,51,234,0.3)] hover:shadow-[0_0_30px_rgba(147,51,234,0.5)]",
+      "secondary": "bg-white/5 hover:bg-white/10 text-white border border-white/10 rounded-full px-8 py-4 font-medium backdrop-blur-md transition-all"
+    },
+    "cards": {
+      "feature": "bg-[#0A0A0F] border border-white/10 rounded-3xl p-8 hover:border-purple-500/50 transition-all duration-500 hover:-translate-y-1 overflow-hidden relative"
+    },
+    "header": {
+      "style": "fixed top-0 w-full z-50 bg-black/50 backdrop-blur-2xl border-b border-white/5"
+    }
+  },
+  "motion_and_interactions": {
+    "hover_effects": "Subtle translate-y, glow opacity increase, border color shift.",
+    "scroll_animations": "Fade in up for sections, staggered children for bento grids.",
+    "accents": "Slow pulsing purple gradient background blobs."
+  },
+  "icons_and_assets": {
+    "icon_library": "@phosphor-icons/react",
+    "style": "Duotone, matching the accent purple color."
+  },
+  "sections_breakdown": [
+    {
+      "name": "Header",
+      "layout": "Flex space-between, Logo left, Nav center, CTA right. Glassmorphism.",
+      "content": "Logo (Atives text), Discover, Network, Prosite, Download App CTA."
+    },
+    {
+      "name": "Hero Section",
+      "layout": "Center aligned content. Glowing background mesh. Large typography. Floating iPhone mockups stacked or in a fan layout.",
+      "content": "H1: The Super App for the Creative World. Sub: Discover. Network. Monetize. Grow. CTAs: Download App, Build Prosite.",
+      "media_requirements": ["hero_bg_glow", "iphone_mockup_1", "iphone_mockup_2"]
+    },
+    {
+      "name": "Stats Strip",
+      "layout": "4 columns on desktop, 2 on mobile. Border top/bottom.",
+      "content": "50K+ Creatives, 1M+ Opportunities, etc."
+    },
+    {
+      "name": "Why Atives Exists",
+      "layout": "Split layout: 50% sticky text, 50% scrolling imagery/cards.",
+      "content": "Talent Deserves Visibility. Text block + images of artists.",
+      "media_requirements": ["artist_working_1", "artist_working_2"]
+    },
+    {
+      "name": "Features (Bento Grid)",
+      "layout": "Asymmetric Bento Grid (tetris style).",
+      "content": "Discovery, Networking, Monetization, Prosite Identity.",
+      "media_requirements": ["creative_studio_mood"]
+    },
+    {
+      "name": "How It Works",
+      "layout": "Vertical timeline or 3-step horizontal cards with connecting lines.",
+      "content": "1. Build Profile, 2. Connect, 3. Monetize."
+    },
+    {
+      "name": "Testimonials",
+      "layout": "Marquee sliding left and right. High contrast cards.",
+      "content": "Quotes from creatives.",
+      "media_requirements": ["creative_portrait_1", "creative_portrait_2"]
+    },
+    {
+      "name": "Pricing/Prosite Plans",
+      "layout": "2 or 3 cards side-by-side. Middle card highlighted with glowing border.",
+      "content": "Free vs Pro tiers."
+    },
+    {
+      "name": "FAQ",
+      "layout": "Accordion list in the center.",
+      "content": "Common questions."
+    },
+    {
+      "name": "Final CTA",
+      "layout": "Massive text. Glowing background.",
+      "content": "Join the Movement. App Store / Play Store buttons."
+    },
+    {
+      "name": "Footer",
+      "layout": "Large spacing. Dark background. Huge Logo.",
+      "content": "Links, Socials, Copyright."
+    }
+  ],
+  "media_urls": {
+    "hero_bg_glow": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/3eb10312-ee54-42ef-843b-45f16c4098dd/images/28a108fd65d09e6af98125dd333a39486faeffbbcecd4877eab8b3aa19da421b.png",
+      "description": "Abstract purple glowing mesh background",
+      "category": "background"
+    },
+    "creative_studio_mood": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/3eb10312-ee54-42ef-843b-45f16c4098dd/images/469758c5c15eb5c12e4e37122844dc4ce20f804bf221915dfa06e9e522fc9000.png",
+      "description": "Cinematic dark studio with glowing tablet",
+      "category": "feature_image"
+    },
+    "iphone_mockup_1": {
+      "url": "https://images.unsplash.com/photo-1709178295004-893b38ec2a4b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxpcGhvbmUlMjBtb2NrdXAlMjBkYXJrJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3Nzg5MjQ4NzZ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "iPhone closeup with camera on dark background",
+      "category": "hero_mockup"
+    },
+    "iphone_mockup_2": {
+      "url": "https://images.unsplash.com/photo-1644329968124-4c68f17c21e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxpcGhvbmUlMjBtb2NrdXAlMjBkYXJrJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3Nzg5MjQ4NzZ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Hand holding iPhone on dark background",
+      "category": "hero_mockup"
+    },
+    "iphone_mockup_3": {
+      "url": "https://images.unsplash.com/photo-1709178294960-da559766cc8d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxpcGhvbmUlMjBtb2NrdXAlMjBkYXJrJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3Nzg5MjQ4NzZ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "iPhone lying on table dark background",
+      "category": "feature_mockup"
+    },
+    "artist_working_1": {
+      "url": "https://images.unsplash.com/photo-1613483812100-a473b639b423?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHw0fHxhcnRpc3QlMjB3b3JraW5nJTIwc3R1ZGlvfGVufDB8fHx8MTc3ODkyNDg3Nnww&ixlib=rb-4.1.0&q=85",
+      "description": "Artist working on paper",
+      "category": "storytelling"
+    },
+    "artist_working_2": {
+      "url": "https://images.unsplash.com/photo-1650783756107-739513b38177?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxhcnRpc3QlMjB3b3JraW5nJTIwc3R1ZGlvfGVufDB8fHx8MTc3ODkyNDg3Nnww&ixlib=rb-4.1.0&q=85",
+      "description": "Artist working on laptop",
+      "category": "storytelling"
+    },
+    "creative_portrait_1": {
+      "url": "https://images.unsplash.com/photo-1532170579297-281918c8ae72?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwyfHxjcmVhdGl2ZSUyMHByb2Zlc3Npb25hbCUyMHBvcnRyYWl0JTIwZGFya3xlbnwwfHx8fDE3Nzg5MjQ4NzZ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Creative professional woman dark shirt",
+      "category": "testimonial_avatar"
+    },
+    "creative_portrait_2": {
+      "url": "https://images.unsplash.com/photo-1516117525866-d85459db7457?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwzfHxjcmVhdGl2ZSUyMHByb2Zlc3Npb25hbCUyMHBvcnRyYWl0JTIwZGFya3xlbnwwfHx8fDE3Nzg5MjQ4NzZ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Creative professional woman with glasses",
+      "category": "testimonial_avatar"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Build as a single page application with distinct sections using standard React (.js/.jsx format, NOT TypeScript).",
+    "Use framer-motion heavily for scroll reveals, staggering elements in bento grids, and pulsing backgrounds.",
+    "Ensure all text has adequate contrast against the dark backgrounds. Use text-shadow if placed over the purple mesh gradient.",
+    "For the hero background, place the `hero_bg_glow` image absolutely behind the content with object-cover and opacity-40, combined with a radial gradient to blend it into the dark background.",
+    "Implement the Header with `backdrop-blur-xl bg-black/50 border-b border-white/10` so it acts as crystal glass when scrolling.",
+    "For buttons, add a subtle glowing box-shadow that intensifies on hover.",
+    "Never use purely flat gray or black (#000000 or #808080); tint them slightly with purple/blue (#05050A).",
+    "Use Phosphor Icons (@phosphor-icons/react) in Duotone variant for features and UI elements.",
+    "MUST implement `data-testid` on all interactive and key informational elements (buttons, links, form inputs, menus, error messages, user balances, confirmation text).",
+    "Do NOT use typical Shadcn Card components without stripping the 'Vercel-look'. Customize them heavily with the defined `surfaces.card` styles.",
+    "Ensure the hero iPhone mockups are large and prominent. Use floating animations (translateY keyframes) to make them feel alive.",
+    "Ensure generous padding using Tailwind utilities like py-24 or py-32 for section separation.",
+    "Use React Fast Marquee for the Testimonials sliding section."
+  ]
+}
